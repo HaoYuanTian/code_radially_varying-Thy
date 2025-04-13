@@ -1,0 +1,18 @@
+un/__pycache__/
+un/result/
+
+
+# 忽略编辑器的临时文件（Emacs、Vim）
+*~          # Emacs 临时备份文件
+*.swp       # Vim 编辑中产生的 swap 文件
+*.swo       # Vim 的另一个 swap 文件后缀
+
+# 忽略常见数据文件（数据集、模型）
+data/
+*.csv
+*.npy
+*.npz
+*.mat
+*.pt
+*.h5
+*.pkl
